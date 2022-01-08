@@ -1,0 +1,110 @@
+.mulishFont {
+    font-family: 'Mulish', sans-serif;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+}
+li {
+    font-family: 'Mulish', sans-serif;
+}
+
+Table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px;
+    border-bottom: 1px solid black;
+}
+
+
+li:hover {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: gray;
+}
+/*HTML box model. padding, border and margin.*/
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+/* #example {
+    color: gray;
+    background-color: blue;
+    border-style: dotted;
+    border-width: 3 px;
+    border-color: red;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+}
+
+ */
+/* img {
+    float: right;
+} */
+
+.every-even li:nth-child(even) {
+    background-color: rgba(242, 119, 12, 1);
+}
+\\Changes every third line to have a red background\\
+.every-third li:nth-child(3n) {
+    background-color: red;  
+}
+/* body {
+    background-color:rgba(231, 203, 150, 0.925);
+} */
+/* body {
+     background-color: #F2F2F2;
+}
+ */
+
+ body {
+     background-color: rgba(242, 242, 242, 1);
+ }
+h1 {
+    color:#F2780C;
+    font-family: 'Mulish', sans-serif;
+}
+
+h2 { 
+    color:#F2780C;
+    font-family: 'Mulish', sans-serif; 
+}
+
+h3 {
+    color:#F2780C;
+    font-family: 'Mulish', sans-serif;
+}
+h4 {
+    color:#F2780C;
+    font-family: 'Mulish', sans-serif;
+}
+
+div {
+    background-color:rgba(242, 119, 12, 1); 
+    border-style: solid; 
+    border-color: #83A638; 
+    border-radius: 5px;  
+}
+
+#food:hover {
+    width: 175px;
+    height: auto;
+    border-radius: 25%;
+}
+
+
+
+
